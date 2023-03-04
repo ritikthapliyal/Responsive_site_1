@@ -1,0 +1,69 @@
+.Footer{
+    width: 100vw;
+    height: 16rem;
+    bottom: 0;
+    background-color: black;
+    position: fixed;
+    z-index: -11;
+
+    padding: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.Footer p{
+    color: white;
+    font-size: 0.8rem;
+}
+.follow{
+    display: flex;
+    gap: 1rem;
+}
+
+.f-Logo{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Commissioner', sans-serif;
+    color: white;
+}
+
+
+@media screen and (max-width: 900px){
+    .Footer{
+        height: 12rem;
+        padding: 2rem;
+        gap: .6rem;
+        justify-content: center;
+    }
+    .Footer p{
+        font-size: 0.6rem;
+    }
+    .follow{
+        display: flex;
+        gap: .8rem;
+    }
+    
+    .f-Logo{
+        font-size: 2.2rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .Footer{
+        height: 10rem;
+        padding: 1.8rem;
+        gap: .5rem;
+        justify-content: center;
+    }
+    .Footer p{
+        font-size: 0.55rem;
+    }
+    .follow{
+        display: flex;
+        gap: .7rem;
+    }
+    .f-Logo{
+        font-size: 2rem;
+    }
+}
